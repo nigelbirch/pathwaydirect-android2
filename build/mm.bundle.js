@@ -4478,7 +4478,7 @@ angular.module('mm.core')
         text = text.replace(/<\/?(?!\!)[^>]*>/gi, '');
         text = self.decodeHTMLEntities(text);
         text = text.replace(/_/gi, " ");
-        text = text.replace(/[\'"’-]/gi, "");
+        text = text.replace(/[\'"?-]/gi, "");
         text = text.replace(/([0-9])[.,]([0-9])/gi, '$1$2');
         return text.split(/\w\b/gi).length - 1;
     };
@@ -21615,7 +21615,7 @@ angular.module('mm.addons.qtype_numerical')
         }
         var regexString = '[+-]?(?:\\d+(?:\\.\\d*)?|\\.\\d+)(?:e[-+]?\\d+)?';
         answer = answer.replace(' ', '');
-        answer = answer.replace(/(?:e|E|(?:x|\*|×)10(?:\^|\*\*))([+-]?\d+)/, 'e$1');
+        answer = answer.replace(/(?:e|E|(?:x|\*|?)10(?:\^|\*\*))([+-]?\d+)/, 'e$1');
         if (answer.indexOf('.') != -1 || answer.split(',').length - 1 > 1) {
             answer = answer.replace(',', '');
         } else {
@@ -37526,7 +37526,7 @@ angular.module('mm.core')
     "wsservice" : "moodle_mobile_app",
     "wsextservice" : "local_mobile",
     "siteurl": "http://www.pathwaydirect.co.uk/",
-    "gcmpn": "367255700464",
+    "gcmpn": "694767596569",
 
 
 
