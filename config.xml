@@ -528,5 +528,7 @@
             <key>NSAllowsArbitraryLoads</key><true/>
         </dict>
     </gap:config-file>
+        
+         <allow-navigation href="http://*/*" />
 
 </widget>
