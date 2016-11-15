@@ -5,10 +5,10 @@
         id        = "co.uk.pathwaydirect.www"
        versionCode = "20150"
         version   = "3.1.3">
-    <name>Moodle Mobile</name>
+    <name>Pathway Direct Mobile</name>
 
     <description>
-        Moodle Mobile official app
+        Pathway Direct Mobile
     </description>
 
     <author href="http://moodle.com" email="mobile@moodle.com">
@@ -16,7 +16,7 @@
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>3.3.3</string>
+        <string>3.3.4</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
